@@ -6,9 +6,9 @@ body {
     background: radial-gradient(circle,rgb(0, 3, 83) 0%, rgb(18, 18, 18) 100%);
     font-family: 'Courier New', Georgia, sans-serif;
     font-size: 16px;
+    max-width: 85%;
     margin: auto;
     padding: 20px;
-    align-items: center;
 }
 
 footer {
@@ -23,8 +23,13 @@ a {
 }
 
 a:hover {
-    color: green;
+    color: rgb(0, 255, 213);
     text-shadow: 0px 2px 5px black;
+}
+
+.top-page {
+    max-width: 65%;
+    margin: auto;
 }
 
 .flex-container {
@@ -41,14 +46,15 @@ a:hover {
 }
 
 .recipes {
+    flex: 1;
     background-color: #0c0c0c90;
     padding: 5px;
     border: 4px solid rgb(255, 255, 255, 0.05);
     border-radius: 10px;
     box-shadow: 0px 5px 10px black;
     text-align: center;
-    width: 300px;
-    margin: 10px;
+    max-width: 300px;
+    margin: 20px;
 }
 
 .recipes .img-container {
